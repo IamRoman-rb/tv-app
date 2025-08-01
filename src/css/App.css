@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+:root{
+    /* Colores */
+    --negro-oscuro: #0b090a;
+    --negro: #161a1d;
+    --rojo-oscuro: #a4161a;
+    --rojo: #ba181b;
+    --rojo-claro: #e5383b;
+    --azul-oscuro: #03045e;
+    --azul: #072ac8;
+    --gris-oscuro: #d3d3d3;
+    --gris: #f5f3f4;
+    --blanco: #ffffff;
+
+    /* Tipografias */
+    --karla: "Karla", sans-serif;
+    --dancing: "Dancing Script", cursive;
+
+    /* Sombras */
+    --suave: 0 .1rem .2rem rgba(0, 0, 0, .1);
+    --media: 0 .2rem .3rem rgba(0, 0, 0, .3);
+    --fuerte: 0 .3rem .3rem rgba(0, 0, 0, .3);
+
+    --suave-gris: 0 .1rem .2rem rgba(245, 243, 244, .1);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--negro);
+    font-family: var(--karla);
+}

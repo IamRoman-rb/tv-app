@@ -1,0 +1,81 @@
+@import url('./App.css');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+    background-color: var(--negro-oscuro);
+    border-radius: .3rem;
+    box-shadow: var(--suave-gris);
+}
+section > figure {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section > figure > img {
+    width: 100%;
+    border-radius: .3rem;
+}
+section > form {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 1rem;
+    color: var(--blanco);
+
+}
+section > form > h1{
+    font-family: var(--dancing);
+    font-size: 2.5rem;
+}
+section > form > p{
+    width: 100%;
+    text-align: center;
+    color: var(--rojo);
+    font-size: 1.3rem;
+}
+section > form > fieldset {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: .5rem;
+    border-radius: .2rem;
+    gap: .3rem;
+}
+section > form > fieldset.button{
+    border: none;
+    justify-content: center;
+}
+section > form > fieldset > label {
+    width: 100%;
+}
+section > form > fieldset > input {
+    width: 100%;
+    color: var(--blanco);
+    padding: .3rem .5rem;
+    outline: none;
+    border: none;
+    border-radius: .2rem;
+    background-color: transparent;
+}
+section > form > fieldset.button > button {
+    color: var(--blanco);
+    background-color: var(--azul);
+    padding: .5rem .8rem;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+}
